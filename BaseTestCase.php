@@ -10,6 +10,26 @@ namespace Morphodo\Tests;
 class BaseTestCase extends \PHPUnit_Framework_TestCase {
 
 	/**
+	 * @var string
+	 */
+	protected $fixtureBasePath = '';
+
+	/**
+	 * Set the default fixture base path for the current test case class.
+	 * This method should be called in the "setup()" method.
+	 *
+	 * <example>
+	 *   $this->setFixtureBasePath(__DIR__);
+	 * </example>
+	 *
+	 * @param $fixtureBasePath
+	 * @return void
+	 */
+	public function setFixtureBasePath($fixtureBasePath) {
+		$this->fixtureBasePath = $fixtureBasePath;
+	}
+
+	/**
 	 * Returns the content of a given fixture file.
 	 *
 	 * @param string $fixture Relative path to the fixture file.
