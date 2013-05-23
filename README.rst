@@ -14,7 +14,7 @@ The recommended way to install PHPUnit base test case is through [Composer](http
 ::
 
   {
-		"require": {
+		"require-dev": {
 			"morphodo/phpunit-base-test-case": "*"
 		}
 	}
@@ -30,7 +30,7 @@ Consider tightening your dependencies to a known version when deploying mission 
 
 ::
 
-	php composer.phar install
+	php composer.phar install --dev
 
 4. Require Composer's autoloader
 
