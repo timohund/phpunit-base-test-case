@@ -1,0 +1,14 @@
+{
+    "name": "morphodo/phpunit-base-test-case",
+    "description": "PHPUnit base test case with use full stuff.",
+    "keywords": ["phpunit", "mock"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Morphodo\\Tests": "" }
+    },
+    "target-dir": "Morphodo/Tests"
+}
+
