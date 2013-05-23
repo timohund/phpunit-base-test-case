@@ -1,13 +1,13 @@
 <?php
 
-namespace Morphodo\Tests;
+namespace Morphodo\PHPUnit;
 
 /**
  * Provides general testing methods for mocking.
  *
  * @package Morphodo\Tests
  */
-class BaseTestCase extends \PHPUnit_Framework_TestCase {
+class TestCase extends \PHPUnit_Framework_TestCase {
 
 	/**
 	 * @var string
