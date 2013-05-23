@@ -39,7 +39,7 @@ class BaseTestCase extends \PHPUnit_Framework_TestCase {
 	protected function getFixtureContent($fixture) {
 		$fixture = '/' . ltrim($fixture, '/');
 		$fixture = str_replace('/', DIRECTORY_SEPARATOR, $fixture);
-		$fixtureFilePath = dirname(__FILE__) . $fixture;
+		$fixtureFilePath = $this->fixtureBasePath . $fixture;
 		if (is_file($fixtureFilePath)) {
 			$fixtureContent = file_get_contents($fixtureFilePath);
 		} else {
