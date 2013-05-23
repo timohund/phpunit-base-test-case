@@ -8,8 +8,8 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Morphodo\\Tests": "" }
+        "psr-0": { "Morphodo\\PHPUnit": "" }
     },
-    "target-dir": "Morphodo/Tests"
+    "target-dir": "Morphodo/PHPUnit"
 }
 
