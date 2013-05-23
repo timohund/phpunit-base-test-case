@@ -4,7 +4,8 @@
     "keywords": ["phpunit", "mock"],
     "license": "MIT",
     "require": {
-        "php": ">=5.3.2"
+        "php": ">=5.3.2",
+        "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
         "psr-0": { "Morphodo\\Tests": "" }
