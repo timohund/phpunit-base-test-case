@@ -41,3 +41,9 @@ Composer also prepares an autoload file that's capable of autoloading all of the
 	require 'vendor/autoload.php';
 
 You can find out more on how to install Composer, configure autoloading, and other best-practices for defining dependencies at http://getcomposer.org.
+
+
+The `TYPO3 Agentur`_ Morphodo_ supports this package.
+
+.. _TYPO3 Agentur: http://www.morphodo.com/de/typo3-agentur.html
+.. _Morphodo: http://www.morphodo.com/de/the-web-company.html
