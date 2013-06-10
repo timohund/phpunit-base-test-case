@@ -161,4 +161,15 @@ class TestCase extends \PHPUnit_Framework_TestCase {
 			throw new \RuntimeException('Could not inject ' . $name . ' into object of type ' . get_class($target));
 		}
 	}
+
+	/**
+	 * Helper method to create a completely mocked object where no constructor gets called.
+	 * Should be used when a mock without any side effects is needed.
+	 *
+	 * @param $className
+	 * @return object
+	 */
+	protected function getMutedMock($className) {
+		return $this->getMock($className, array(), array(), '', false);
+	}
 }
